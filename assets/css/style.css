@@ -1,0 +1,14 @@
+
+
+body{
+	background-image: url("../images/greta.jpg");
+	background-position: center-center;
+	background-repeat: no-repeat;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+ol{
+	color: black;
+}
