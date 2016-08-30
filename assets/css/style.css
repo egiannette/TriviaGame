@@ -1,14 +1,39 @@
 
 
 body{
-	background-image: url("../images/greta.jpg");
+	background-image: url("../images/ty.jpg");
 	background-position: center-center;
 	background-repeat: no-repeat;
+	z-index: -20;
+	size: 100%;
+	background-position: center;
+	background-size: 100%;	
+
 }
 h1{
-	color: black;
+
+	color: pink;
 	text-align: center;
+	z-index: 100;
+	font-size: 25px;
 }
 ol{
-	color: black;
+	color: orange;
+	font-size: 25px;
+	z-index: 50;
+	font-weight: bold;
 }
+#startbtn{
+	font-size: 100px;
+	color: orange;
+	background-color: grey;
+	position: relative;
+}
+#buttondiv{
+	text-align: center;
+}
+#container{
+	text-align: center;
+}
+
+
