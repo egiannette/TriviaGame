@@ -6,7 +6,7 @@ $("#score").hide();
 $("#startbtn").on("click", function(){
 	$("#startbtn").hide();
 	$("#container").show();
-	countDown(120, "status");
+	countDown(90, "status");
 })
 
 function countDown(secs, elem){
@@ -45,6 +45,6 @@ function countDown(secs, elem){
 	}
 	else{
 		secs--;
-		var timer= setTimeout('countDown('+secs+',"'+elem+'")',1200);
+		var timer= setTimeout('countDown('+secs+',"'+elem+'")',1000);
 	}
 }

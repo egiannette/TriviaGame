@@ -1,14 +1,16 @@
 
 
 body{
-	background-image: url("../images/danes.jpg");
+	background-image: url("../images/drawing.jpg");
 	background-position: center-center;
 	background-repeat: no-repeat;
 	z-index: -20;
 	size: 100%;
-	background-position: center;
-	background-size: 50%;
-	padding: 200px;	
+	background-image: center;
+
+
+		
+
 
 }
 h1{
@@ -26,6 +28,7 @@ ol{
 	z-index: 50;
 	font-weight: bold;
 	z-index: 100;
+	/*background-color: #ee3e80;*/
 }
 #startbtn{
 	font-size: 100px;
@@ -37,7 +40,9 @@ ol{
 	text-align: center;
 }
 #container{
-	text-align: center;
+	text-align:right;
+	
+
 }
 #status{
 	width: 200px;
