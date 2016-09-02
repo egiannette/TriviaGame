@@ -1,6 +1,7 @@
 var score = 0; 
 
 $("#container").hide();
+$("#score").hide();
 
 $("#startbtn").on("click", function(){
 	$("#startbtn").hide();
@@ -15,6 +16,7 @@ function countDown(secs, elem){
 		clearTimeout(timer);
 		// then I will hide the questions and show the results since the time is up
 		$("#container").hide();
+		$("#status").hide();
 		var answer1 = $("#question1").find("input:checked").val();
 		if (answer1 === "C"){
 			score++;
@@ -35,10 +37,14 @@ function countDown(secs, elem){
 		if(answer5 === "D"){
 			score++;
 		}
-		alert(score);
+		$("#score").show();
+		$("#yourscore").append(" "+ score);
+		// alert(score);
 
 
 	}
-	secs--;
-	var timer= setTimeout('countDown('+secs+',"'+elem+'")',100);
+	else{
+		secs--;
+		var timer= setTimeout('countDown('+secs+',"'+elem+'")',1200);
+	}
 }
