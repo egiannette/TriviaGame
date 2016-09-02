@@ -1,7 +1,7 @@
 
 
 body{
-	background-image: url("../images/ty.jpg");
+	background-image: url("../images/greta.jpg");
 	background-position: center-center;
 	background-repeat: no-repeat;
 	z-index: -20;
@@ -12,14 +12,15 @@ body{
 }
 h1{
 
-	color: yellow;
+	color: blue;
 	text-align: center;
 	z-index: 100;
 	font-size: 25px;
 	font: bold;
+	text-transform: uppercase;
 }
 ol{
-	color: yellow;
+	color: blue;
 	font-size: 25px;
 	z-index: 50;
 	font-weight: bold;
@@ -27,8 +28,8 @@ ol{
 }
 #startbtn{
 	font-size: 100px;
-	color: orange;
-	background-color: grey;
+	color: white;
+	background-color: black;
 	position: relative;
 }
 #buttondiv{
@@ -37,5 +38,13 @@ ol{
 #container{
 	text-align: center;
 }
+#status{
+	width: 200px;
+	border: 2px solid;
+	padding: 10px;
+	background-color: white;
+	font: bold;
+	text-align: center;
+}	
 
 
