@@ -2,11 +2,14 @@ var score = 0;
 
 $("#container").hide();
 $("#score").hide();
+$("#status").hide();
+
 
 $("#startbtn").on("click", function(){
 	$("#startbtn").hide();
 	$("#container").show();
-	countDown(90, "status");
+	$("#status").show();
+	countDown(45, "status");
 })
 
 function countDown(secs, elem){
@@ -39,6 +42,7 @@ function countDown(secs, elem){
 		}
 		$("#score").show();
 		$("#yourscore").append(" "+ score);
+
 		// alert(score);
 
 

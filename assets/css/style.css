@@ -2,55 +2,65 @@
 
 body{
 	background-image: url("../images/drawing.jpg");
-	background-position: center-center;
+	
+	/*background-position: center;*/
 	background-repeat: no-repeat;
-	z-index: -20;
-	size: 100%;
+	/*z-index: -20;*/
+	size: 76%;
 	background-image: center;
-
-
-		
-
-
 }
+
 h1{
 
-	color: blue;
+	color: #006600;
 	text-align: center;
 	z-index: 100;
-	font-size: 25px;
+	font-size: 40px;
 	font: bold;
 	text-transform: uppercase;
+	font-family: "Courier New", Courier, monospace;
+	margin-left: 320px;
+	
 }
 ol{
-	color: blue;
+	color: #006600;
 	font-size: 25px;
 	z-index: 50;
 	font-weight: bold;
 	z-index: 100;
+	margin-right: 150px;
+
 	/*background-color: #ee3e80;*/
 }
 #startbtn{
 	font-size: 100px;
 	color: white;
 	background-color: black;
-	position: relative;
+	position: absolute;
 }
 #buttondiv{
 	text-align: center;
+	margin-right: 200px;
 }
 #container{
-	text-align:right;
-	
-
+	/*text-align:center;*/
+	float: right;
+	margin-left: 300px;
 }
 #status{
-	width: 200px;
-	border: 2px solid;
+	width: 250px;
+	border: 10px solid;
 	padding: 10px;
 	background-color: white;
 	font: bold;
 	text-align: center;
+	float: right;
+	margin-right: 440px;
+
 }	
+p{
+	font-size: 30px;
+	margin-left: 650px;
+}
 
 
